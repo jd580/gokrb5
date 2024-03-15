@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ropnop/gokrb5/config"
-	"github.com/ropnop/gokrb5/credentials"
-	"github.com/ropnop/gokrb5/crypto"
-	"github.com/ropnop/gokrb5/crypto/etype"
-	"github.com/ropnop/gokrb5/iana/errorcode"
-	"github.com/ropnop/gokrb5/iana/nametype"
-	"github.com/ropnop/gokrb5/keytab"
-	"github.com/ropnop/gokrb5/krberror"
-	"github.com/ropnop/gokrb5/messages"
-	"github.com/ropnop/gokrb5/types"
+	"github.com/jd580/gokrb5/config"
+	"github.com/jd580/gokrb5/credentials"
+	"github.com/jd580/gokrb5/crypto"
+	"github.com/jd580/gokrb5/crypto/etype"
+	"github.com/jd580/gokrb5/iana/errorcode"
+	"github.com/jd580/gokrb5/iana/nametype"
+	"github.com/jd580/gokrb5/keytab"
+	"github.com/jd580/gokrb5/krberror"
+	"github.com/jd580/gokrb5/messages"
+	"github.com/jd580/gokrb5/types"
 )
 
 // Client side configuration and state.

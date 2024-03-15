@@ -13,8 +13,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ropnop/gokrb5/v8/crypto"
-	"github.com/ropnop/gokrb5/v8/types"
+	"github.com/jd580/gokrb5/v8/crypto"
+	"github.com/jd580/gokrb5/v8/types"
 )
 
 const (

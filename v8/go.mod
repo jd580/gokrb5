@@ -1,4 +1,4 @@
-module github.com/ropnop/gokrb5/v8
+module github.com/jd580/gokrb5/v8
 
 go 1.13
 

@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ropnop/gokrb5/crypto"
-	"github.com/ropnop/gokrb5/iana/keyusage"
-	"github.com/ropnop/gokrb5/types"
+	"github.com/jd580/gokrb5/crypto"
+	"github.com/jd580/gokrb5/iana/keyusage"
+	"github.com/jd580/gokrb5/types"
 )
 
 // RFC 4121, section 4.2.6.2

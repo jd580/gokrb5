@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ropnop/gokrb5/v8/config"
-	"github.com/ropnop/gokrb5/v8/iana/etypeID"
-	"github.com/ropnop/gokrb5/v8/keytab"
-	"github.com/ropnop/gokrb5/v8/test"
-	"github.com/ropnop/gokrb5/v8/test/testdata"
+	"github.com/jd580/gokrb5/v8/config"
+	"github.com/jd580/gokrb5/v8/iana/etypeID"
+	"github.com/jd580/gokrb5/v8/keytab"
+	"github.com/jd580/gokrb5/v8/test"
+	"github.com/jd580/gokrb5/v8/test/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

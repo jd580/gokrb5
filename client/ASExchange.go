@@ -1,14 +1,14 @@
 package client
 
 import (
-	"github.com/ropnop/gokrb5/crypto"
-	"github.com/ropnop/gokrb5/crypto/etype"
-	"github.com/ropnop/gokrb5/iana/errorcode"
-	"github.com/ropnop/gokrb5/iana/keyusage"
-	"github.com/ropnop/gokrb5/iana/patype"
-	"github.com/ropnop/gokrb5/krberror"
-	"github.com/ropnop/gokrb5/messages"
-	"github.com/ropnop/gokrb5/types"
+	"github.com/jd580/gokrb5/crypto"
+	"github.com/jd580/gokrb5/crypto/etype"
+	"github.com/jd580/gokrb5/iana/errorcode"
+	"github.com/jd580/gokrb5/iana/keyusage"
+	"github.com/jd580/gokrb5/iana/patype"
+	"github.com/jd580/gokrb5/krberror"
+	"github.com/jd580/gokrb5/messages"
+	"github.com/jd580/gokrb5/types"
 )
 
 // ASExchange performs an AS exchange for the client to retrieve a TGT.
@@ -39,7 +39,7 @@ func (cl *Client) ASExchange(realm string, ASReq messages.ASReq, referral int) (
 				err = setPAData(cl, &e, &ASReq)
 				if err != nil {
 					return messages.ASRep{}, krberror.Errorf(err, krberror.KRBMsgError, "AS Exchange Error: failed setting AS_REQ PAData for pre-authentication required")
-				}/* commenting this out to avoid 2 requests being made.
+				} /* commenting this out to avoid 2 requests being made.
 				b, err := ASReq.Marshal()
 				if err != nil {
 					return messages.ASRep{}, krberror.Errorf(err, krberror.EncodingError, "AS Exchange Error: failed marshaling AS_REQ with PAData")

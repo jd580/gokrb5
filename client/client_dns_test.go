@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ropnop/gokrb5/config"
-	"github.com/ropnop/gokrb5/keytab"
-	"github.com/ropnop/gokrb5/test"
-	"github.com/ropnop/gokrb5/test/testdata"
+	"github.com/jd580/gokrb5/config"
+	"github.com/jd580/gokrb5/keytab"
+	"github.com/jd580/gokrb5/test"
+	"github.com/jd580/gokrb5/test/testdata"
 )
 
 func TestClient_Login_DNSKDCs(t *testing.T) {

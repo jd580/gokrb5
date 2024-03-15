@@ -5,16 +5,16 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/ropnop/gokrb5/v8/asn1tools"
-	"github.com/ropnop/gokrb5/v8/crypto"
-	"github.com/ropnop/gokrb5/v8/iana"
-	"github.com/ropnop/gokrb5/v8/iana/asnAppTag"
-	"github.com/ropnop/gokrb5/v8/iana/errorcode"
-	"github.com/ropnop/gokrb5/v8/iana/keyusage"
-	"github.com/ropnop/gokrb5/v8/iana/msgtype"
-	"github.com/ropnop/gokrb5/v8/keytab"
-	"github.com/ropnop/gokrb5/v8/krberror"
-	"github.com/ropnop/gokrb5/v8/types"
+	"github.com/jd580/gokrb5/v8/asn1tools"
+	"github.com/jd580/gokrb5/v8/crypto"
+	"github.com/jd580/gokrb5/v8/iana"
+	"github.com/jd580/gokrb5/v8/iana/asnAppTag"
+	"github.com/jd580/gokrb5/v8/iana/errorcode"
+	"github.com/jd580/gokrb5/v8/iana/keyusage"
+	"github.com/jd580/gokrb5/v8/iana/msgtype"
+	"github.com/jd580/gokrb5/v8/keytab"
+	"github.com/jd580/gokrb5/v8/krberror"
+	"github.com/jd580/gokrb5/v8/types"
 )
 
 type marshalAPReq struct {

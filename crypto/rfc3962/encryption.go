@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ropnop/gokrb5/crypto/common"
-	"github.com/ropnop/gokrb5/crypto/etype"
+	"github.com/jd580/gokrb5/crypto/common"
+	"github.com/jd580/gokrb5/crypto/etype"
 	"gopkg.in/jcmturner/aescts.v1"
 )
 

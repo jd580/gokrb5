@@ -9,8 +9,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/ropnop/gokrb5/iana/errorcode"
-	"github.com/ropnop/gokrb5/messages"
+	"github.com/jd580/gokrb5/iana/errorcode"
+	"github.com/jd580/gokrb5/messages"
 )
 
 // SendToKDC performs network actions to send data to the KDC.

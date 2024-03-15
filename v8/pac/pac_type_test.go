@@ -7,9 +7,9 @@ import (
 	"log"
 	"testing"
 
-	"github.com/ropnop/gokrb5/v8/keytab"
-	"github.com/ropnop/gokrb5/v8/test/testdata"
-	"github.com/ropnop/gokrb5/v8/types"
+	"github.com/jd580/gokrb5/v8/keytab"
+	"github.com/jd580/gokrb5/v8/test/testdata"
+	"github.com/jd580/gokrb5/v8/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ropnop/gokrb5/kadmin"
-	"github.com/ropnop/gokrb5/messages"
+	"github.com/jd580/gokrb5/kadmin"
+	"github.com/jd580/gokrb5/messages"
 )
 
 // Kpasswd server response codes.

@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/ropnop/gokrb5/v8/kadmin"
-	"github.com/ropnop/gokrb5/v8/messages"
+	"github.com/jd580/gokrb5/v8/kadmin"
+	"github.com/jd580/gokrb5/v8/messages"
 )
 
 // Kpasswd server response codes.

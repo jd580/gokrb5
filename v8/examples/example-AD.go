@@ -1,3 +1,4 @@
+//go:build examples
 // +build examples
 
 package main
@@ -14,13 +15,13 @@ import (
 
 	"github.com/gorilla/sessions"
 	"github.com/jcmturner/goidentity/v6"
-	"github.com/ropnop/gokrb5/v8/client"
-	"github.com/ropnop/gokrb5/v8/config"
-	"github.com/ropnop/gokrb5/v8/credentials"
-	"github.com/ropnop/gokrb5/v8/keytab"
-	"github.com/ropnop/gokrb5/v8/service"
-	"github.com/ropnop/gokrb5/v8/spnego"
-	"github.com/ropnop/gokrb5/v8/test/testdata"
+	"github.com/jd580/gokrb5/v8/client"
+	"github.com/jd580/gokrb5/v8/config"
+	"github.com/jd580/gokrb5/v8/credentials"
+	"github.com/jd580/gokrb5/v8/keytab"
+	"github.com/jd580/gokrb5/v8/service"
+	"github.com/jd580/gokrb5/v8/spnego"
+	"github.com/jd580/gokrb5/v8/test/testdata"
 )
 
 func main() {

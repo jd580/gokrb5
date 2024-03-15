@@ -9,16 +9,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ropnop/gokrb5/v8/config"
-	"github.com/ropnop/gokrb5/v8/credentials"
-	"github.com/ropnop/gokrb5/v8/crypto"
-	"github.com/ropnop/gokrb5/v8/crypto/etype"
-	"github.com/ropnop/gokrb5/v8/iana/errorcode"
-	"github.com/ropnop/gokrb5/v8/iana/nametype"
-	"github.com/ropnop/gokrb5/v8/keytab"
-	"github.com/ropnop/gokrb5/v8/krberror"
-	"github.com/ropnop/gokrb5/v8/messages"
-	"github.com/ropnop/gokrb5/v8/types"
+	"github.com/jd580/gokrb5/v8/config"
+	"github.com/jd580/gokrb5/v8/credentials"
+	"github.com/jd580/gokrb5/v8/crypto"
+	"github.com/jd580/gokrb5/v8/crypto/etype"
+	"github.com/jd580/gokrb5/v8/iana/errorcode"
+	"github.com/jd580/gokrb5/v8/iana/nametype"
+	"github.com/jd580/gokrb5/v8/keytab"
+	"github.com/jd580/gokrb5/v8/krberror"
+	"github.com/jd580/gokrb5/v8/messages"
+	"github.com/jd580/gokrb5/v8/types"
 )
 
 // Client side configuration and state.

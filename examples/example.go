@@ -1,3 +1,4 @@
+//go:build examples
 // +build examples
 
 // Package examples provides simple examples of gokrb5 use.
@@ -12,12 +13,12 @@ import (
 	"net/http/httptest"
 	"os"
 
-	"github.com/ropnop/gokrb5/client"
-	"github.com/ropnop/gokrb5/config"
-	"github.com/ropnop/gokrb5/keytab"
-	"github.com/ropnop/gokrb5/service"
-	"github.com/ropnop/gokrb5/spnego"
-	"github.com/ropnop/gokrb5/test/testdata"
+	"github.com/jd580/gokrb5/client"
+	"github.com/jd580/gokrb5/config"
+	"github.com/jd580/gokrb5/keytab"
+	"github.com/jd580/gokrb5/service"
+	"github.com/jd580/gokrb5/spnego"
+	"github.com/jd580/gokrb5/test/testdata"
 	"gopkg.in/jcmturner/goidentity.v3"
 )
 
